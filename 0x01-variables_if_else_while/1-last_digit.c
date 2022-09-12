@@ -3,33 +3,30 @@
 #include <stdio.h>
 /**
 *
-*
-*
-*	*main - Determines either greater than 5, is less than 6, or is 0
+*  * main - Determines either greater than 5, is less than 6, or is 0
 *
 *
 *
-*	* Return: Alwasy 0 (Success)
+*  * Return: Alwasy 0 (Success)
 *
 *
 **/
 int main(void)
 {
-int n, l;
+int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-l = n % 10;
-if (1 > 5)
+if (n % 10 > 5)
 {
-printf("Last digit of %d is greater than 5\n" , n, l);
+printf("Last digit of %d is greater than 5\n", n, n % 10);
 }
-else if (l == 0)
+else if (n % 10 == 0)
 {
-printf("Last digit of %d is %d and is 0\n", n, l);
+printf("Last digit of %d is %d and is 0\n", n, n % 10);
 }
 else
 {
-printf("Last digit of %d is %d and is less than 6 and not 0\n", n, 1);
+printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n % 10);
 }
 return (0);
 }
