@@ -58,4 +58,4 @@ int main(void)
 
 	return (0);
 
-}
+} :%s/\s\+$//e
