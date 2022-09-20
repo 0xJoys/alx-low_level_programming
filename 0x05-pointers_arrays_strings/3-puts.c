@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _puts - print a string followed a new line to stdout
- * @str pointer to str
- * Return: noting
+ * @str: pointer to str
+ * Return: nothing
  */
 void _puts(char *str)
 {
