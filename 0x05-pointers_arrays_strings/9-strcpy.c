@@ -2,7 +2,7 @@
 /**
  * *_strcpy - copies the string pointed to the src
  * @dest: char type string
- * @scr: char type string
+ * @src: char type string
  * Description: copy the string pointed to by the pointer src to the buffer pointed to by dest
  * Return: Pointer to dest
  */
@@ -12,7 +12,6 @@ int i = -1;
 do {
 i++;
 dest[i] = src[i];
-} 
-while (src[i] != '\0');
+} while (src[i] != '\0');
 return (dest);
 }
