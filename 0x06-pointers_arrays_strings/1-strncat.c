@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *_strncat concatenates two stings
+ * *_strncat - concatenates two stings
  * @dest: is our given prototype
  * @srs: is the second prototype
  * @n:
