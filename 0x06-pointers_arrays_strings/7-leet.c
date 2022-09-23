@@ -4,7 +4,7 @@
  * @s: char array string type
  * Return: s transformed
  */
-char *let(char *s)
+char *leet(char *s)
 {
 int i, ii;
 char s1[] ="aeotl";
