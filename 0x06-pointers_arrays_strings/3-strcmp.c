@@ -18,7 +18,7 @@ return (aux);
 }
 else if (*(s1 + i) - < *(s2 + i))
 {
-aux = *(s1 + i) - *(s2 + 1);
+aux = *(s1 + i) - *(s2 + i);
 return (aux);
 }
 i++;
