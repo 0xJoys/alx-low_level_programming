@@ -5,7 +5,7 @@ int n;
 int a[5];
 int *p;
 a[2] = 1024;
-p = 8n;
+p = &n;
 /*
 * write you line of code here....
 * Remember:
@@ -13,6 +13,7 @@ p = 8n;
 * - you are not allowed to modify p
 * - only one statement
 * - you are not allowed to code anything else than this line of code
+* Return: main
 */
 p[5] = 98;
 /* ...so that this prints 98\n */
