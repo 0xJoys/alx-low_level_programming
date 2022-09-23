@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * *_strncat - concatenates two stings
- * @dest: is our given prototype
- * @src: is the second prototype
+ * _strncat - concatenates two stings
+ * @dest: pointing to desination char
+ * @src: pointing to the source char
  * @n: number of bytes to receive
- * Return: dest
+ * Return: char
  */
-char *_strncat(char *dest, char *src. int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	unsigned int x = 0;
 	int y = 0;
