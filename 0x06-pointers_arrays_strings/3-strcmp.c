@@ -3,7 +3,7 @@
  * _strcmp - function that compares two strings
  * @s1: string 1
  * @s2: string 2
- * Return: ) if matching, and ns1 - ns2 if not matching
+ * Return: if matching, and ns1 - ns2 if not matching
  */
 int _strcmp(char *s1, char *s2)
 {
@@ -16,7 +16,7 @@ if (*(s1 + i) > *(s2 + i))
 aux = *(s1 + i) - *(s2 + i);
 return (aux);
 }
-else if (*(s1 + i) - < *(s2 + i))
+else if (*(s1 + i) < *(s2 + i))
 {
 aux = *(s1 + i) - *(s2 + i);
 return (aux);
