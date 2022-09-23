@@ -7,15 +7,15 @@
  */
 char *_strcat(char *dest, char *src)
 {
-unsigned int x = 0;
-unsigned int y = 0;
-while (*(dest + x) != '\0')
-x++;
-while (*(src + y) != '\0')
+unsigned int i = 0;
+unsigned int j = 0;
+while (*(dest + i) != '\0')
+i++;
+while (*(src + j) != '\0')
 {
-*(dest + x) = *(src + y);
-x++;
-y++;
+*(dest + i) = *(src + j);
+i++;
+j++;
 }
 return (dest);
 }
