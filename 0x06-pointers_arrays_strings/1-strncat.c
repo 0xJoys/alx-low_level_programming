@@ -8,18 +8,18 @@
  */
 char *_strncat(char *dest, char *src. int n)
 {
-int count = 0, count2 = 0;
-while (*(dest + count) != '\0')
-{
-count ++;
-}
-while (count2 < n)
-{
-*(dest + count) *(src + count2);
-if (*(src + count2) == '\0')
-break;
-count++;
-count2++;
-}
-return (dest);
+	unsigned int x = 0;
+	int y = 0;
+	while (*(dest + x) != '\0')
+		i++;
+	while (*(src + y) != '\0')
+	{
+		if (y < x)
+		{
+			*(dest + x) = *(src + y);
+			x++;
+		}
+		y++;
+	}
+	return (dest);
 }
