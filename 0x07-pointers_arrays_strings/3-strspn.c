@@ -12,7 +12,7 @@ unsigned int bytes = 0;
 int index;
 while (*s)
 {
-for (index = 0; accept[index]; indext++)
+for (index = 0; accept[index]; index++)
 {
 if (*s == accept[index])
 {
