@@ -19,5 +19,5 @@ _putchar('\n');
 _putchar(a[i / 8][i - j]);
 i++;
 }
-_putchar('\n')
+_putchar('\n');
 }
